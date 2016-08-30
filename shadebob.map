@@ -1,0 +1,33 @@
+
+ TEST
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000034H R2SEG                  CODE 16-bit
+ 0002:00000000 000007FE5H CODE32                 CODE 32-bit
+ 0003:00000000 000000019H CODE16                 CODE 16-bit
+ 0004:00000000 000000030H _MSGSEG32              CODE 32-bit
+ 0005:00000000 000000008H LIBDATA16              DATA16 16-bit
+ 0006:00000000 000000606H DATA32                 DATA 32-bit
+ 0006:00000608 000000000H CTOR_DTOR1             DATA 32-bit
+ 0006:00000608 000000000H CTOR_DTOR2             DATA 32-bit
+ 0006:00000608 000000000H CTOR_DTOR3             DATA 32-bit
+ 0006:00000610 000000910H CONST32                CONST 32-bit
+ 0006:00000F20 00000000CH EDC1                   EDC_CLASS 32-bit
+ 0006:00000F2C 000000264H EDC2                   EDC_CLASS 32-bit
+ 0006:00001190 000000004H EDC3                   EDC_CLASS 32-bit
+ 0006:00001194 000000000H BSS32                  BSS 32-bit
+ 0006:00001194 000020764H c_common               BSS 32-bit
+ 0006:00021900 002625A00H STACK32                STACK 32-bit
+
+ Origin   Group
+ 0000:0   FLAT
+ 0006:0   DGROUP
+
+ Address       Export                  Alias
+
+ 0001:00000029 INP16                   INP16
+ 0001:0000001C INP8                    INP8
+ 0001:0000000E OUTP16                  OUTP16
+ 0001:00000000 OUTP8                   OUTP8
+
+Program entry point at 0002:000021B8

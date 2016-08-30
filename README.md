@@ -3,7 +3,7 @@ SVGALIB is the video library used to make the Linux version of Doom.
 
 LICENSE
 ===============
-* GNU GPL V2 / GNU LGPL
+* Not Specified
 
 COMPILE TOOLS
 ===============
